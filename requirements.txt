@@ -1,0 +1,11 @@
+--index-url https://blpapi.bloomberg.com/repository/releases/python/simple/
+--extra-index-url https://pypi.org/simple
+
+blpapi==3.21.0
+
+# Research stack
+pandas>=2.0
+numpy>=1.26
+pyarrow>=14
+xbbg==0.7.7
+pdblp==0.1.8       # optional fallback wrapper

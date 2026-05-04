@@ -1,0 +1,18 @@
+# Caches built by the recipes
+.bbcache/
+.cache/
+.xbbg/
+*.parquet
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.eggs/
+*.egg-info/
+
+# IDE / editor
+.vscode/
+.idea/
+.DS_Store
