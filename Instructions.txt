@@ -1,0 +1,82 @@
+We are going to build the P&L explainer for the Portfolio delta (DAILY/WEEKLY) -» 2 MAIN FACTORS:
+
+- Credit risk -» To bee looked upon
+- Interest risk -» Modified Duration -» Convexity
+
+The remaining P&L not explained through those 2 factors will enter in the residual initially. This residual will be correlated with the 2 factors used as regressors if endogeneity exists
+
+Later we will add the remaining factors (inflation, optionality, FX, liquidity, Carry and Roll, Basis, Technical).
+
+
+
+Fama Mac-Beth approach
+Generalized Additive Model (GAM)
+Gradient Boost Model (LightGBM/XGBoost)
+
+
+Collumns of the file Bloter_FI.xlsm (SHEET_NAME = BANKING BOOK):
+A) ISIN
+B) Nome
+C) Emitente
+D) Moeda
+E) Years left -» years left need to be always higher or equal than duration
+F) Coupon
+G) Par Value
+H) Montante Investido
+I) Investimento a Preços de Mercado
+J) Linha
+K) Fitch
+L) Moody's
+M) S&P
+N) DBRS
+O) Maturity
+P) Data Entrada
+Q) Carry Efectivo
+R) Portolio
+S) Yld Entrada
+T) %Hedge
+U) ASW
+V) Yield
+W) Gain/Loss
+X) Compra
+Y) Price
+Z) P&L
+AA) BPVs
+AS) Hedge
+AT) Amort.
+AU) Total Bond + Hedge
+AV) Daily hedge
+AW) Loss BPVs
+AX) Gain Hedge (bps)
+AY) Reserva Bond
+AZ) BPpv's Hedge
+BA) Bpv's Net
+BB) Ticker
+BC) Holding period (days)
+BD) Holding period wi
+BE) Classificação
+BF) Floater -» Boolean (N or Y)
+BG) Dif to 100%
+BH) Tau
+BI) Fig/Year
+BJ) Pull to Par EUR
+BK) Dif to 100% SUMPROD
+BL) Tau SUMPROD
+BM) ***BLANK***
+BN) Dif to Px_Compra
+BO) Tau
+BP) Fig/Year
+BQ) Pull to Par EUR
+BR) Diff to Px_Compra SUMPRO
+BS) Tau SUMPRO
+BT) Reserva Bond
+BU) ***Blank***
+BV) Days to maturity
+BX) wi days to mty
+BY) wi yield entrada
+BZ) ***Blank***
+
+
+
+
+
