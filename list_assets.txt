@@ -1,0 +1,27 @@
+### Remember to analyze this bonds as they are the start of what will be the P&L explainer
+
+Spain Out 3031
+Madrid 3031
+SNAM Out 2025
+SNAM Dez 2026
+SNAM 2029
+TERNA 27
+TERNA 30
+IREN 2030
+IREN 2027
+2i RETE GAS 2026
+2i RETE GAS 2027
+2i RETE GAS 3031
+ENEL 30
+ITALGAS 2027
+ITALGAS 2031
+A2A 2028
+ENI 2027
+FERROVIE 2027
+PESOL 2029
+ENGIE 2028
+Saint Gobain 2028
+EDF jan 27
+EDF jun 27
+
+
