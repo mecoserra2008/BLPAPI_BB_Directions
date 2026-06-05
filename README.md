@@ -48,6 +48,28 @@ execution. Code samples assume DAPI on `localhost:8194` unless stated.
 - [FX carry & basis](docs/recipes/fx_carry.md)
 - [Futures curve & rolls](docs/recipes/futures_curve.md)
 
+### Excel × Bloomberg (parallel to the Python guide)
+A full encyclopedia of the Bloomberg Excel Add-in, biased toward
+fixed-income workflows. Same tickers and overrides as the Python
+guide, expressed as `=BDP(...)` / `=BDH(...)` / `=BDS(...)`.
+
+- [Excel index — start here](excel/README.md)
+- [Install & ribbon setup](excel/01_install_and_addin.md)
+- [Function reference (BDP / BDH / BDS / BEQS / BCURVE / BSRCH / BQL)](excel/02_function_reference.md)
+- [Tickers in cells, overrides, calendars](excel/03_tickers_overrides_calendars.md)
+- [Curves in worksheets](excel/04_curves.md)
+- [Real-time, RTD, BLPSubscribe](excel/05_realtime_rtd.md)
+- [VBA, automation, xlwings](excel/06_vba_automation.md)
+- Fixed-income deep dives: [bonds](excel/fixed_income/bonds.md) ·
+  [futures](excel/fixed_income/futures.md) ·
+  [swaps](excel/fixed_income/swaps.md) ·
+  [currencies](excel/fixed_income/currencies.md) ·
+  [rates & money market](excel/fixed_income/rates_money_market.md) ·
+  [credit & CDS](excel/fixed_income/credit_cds.md)
+- Excel cheatsheets: [quick reference](excel/cheatsheets/excel_quick_reference.md) ·
+  [FI field kit](excel/cheatsheets/excel_fi_field_kit.md) ·
+  [overrides syntax](excel/cheatsheets/excel_overrides_syntax.md)
+
 ### Cheatsheets
 - [Yellow keys (market sectors)](cheatsheets/yellow_keys.md)
 - [Exchange / pricing-source codes](cheatsheets/exchange_codes.md)
